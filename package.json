@@ -1,0 +1,40 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Template para projetos web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RouxVolonte/templates.git"
+  },
+  "author": "RouxVolonte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RouxVolonte/templates/issues"
+  },
+  "homepage": "https://github.com/RouxVolonte/templates",
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-imagemin": "^0.9.2",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-spritesmith": "^3.5.0"
+  },
+  "dependencies": {
+    "imagemin-advpng": "^3.0.2",
+    "imagemin-gifsicle": "^4.0.0",
+    "imagemin-jpeg-recompress": "^4.0.0",
+    "imagemin-jpegoptim": "^4.0.0",
+    "imagemin-jpegtran": "^4.0.0",
+    "imagemin-mozjpeg": "^4.0.0",
+    "imagemin-optipng": "^4.0.0",
+    "imagemin-pngcrush": "^4.0.0",
+    "imagemin-pngout": "^2.0.0",
+    "imagemin-pngquant": "^4.0.0",
+    "imagemin-svgo": "^4.0.1",
+    "imagemin-zopfli": "^4.0.0"
+  }
+}
